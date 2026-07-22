@@ -1,0 +1,159 @@
+{
+  "quotes": [
+    {
+      "id": 1,
+      "author": "Antonie van Leeuwenhoek",
+      "quote": "Among all the marvels I have discovered in nature, these are the most marvelous of all."
+    },
+    {
+      "id": 2,
+      "author": "Louis Pasteur",
+      "quote": "The role of the infinitely small in nature is infinitely great."
+    },
+    {
+      "id": 3,
+      "author": "Stephen Jay Gould",
+      "quote": "This is truly the 'age of bacteria'—as it was in the beginning, is now and ever shall be."
+    },
+    {
+      "id": 4,
+      "author": "Lynn Margulis",
+      "quote": "Bacteria are the hidden alchemists of the planet, shaping the atmosphere and the future."
+    },
+    {
+      "id": 5,
+      "author": "Joshua Lederberg",
+      "quote": "Microbiology offers an understanding of the hidden world of microbes that is essential for understanding our own biology."
+    },
+    {
+      "id": 6,
+      "author": "Stuart B. Levy",
+      "quote": "If you don't like bacteria, you're on the wrong planet."
+    }
+  ],
+  "captured_images": [
+    {
+      "id": 1,
+      "src": "https://res.cloudinary.com/dlqxpz9pu/image/upload/v1778333164/ocsis_n3gmpb.png",
+      "time": "2022-01-01T12:00:00",
+      "date": "2026-07-01"
+    },
+    {
+      "id": 2,
+      "src": "https://res.cloudinary.com/dlqxpz9pu/image/upload/v1778333186/hannapp_vaer7g.jpg",
+      "time": "2022-01-01T12:03:00",
+      "date": "2026-07-01"
+    },
+    {
+      "id": 3,
+      "src": "https://res.cloudinary.com/dlqxpz9pu/image/upload/v1778333186/hannapp_vaer7g.jpg",
+      "time": "2022-01-01T12:03:00",
+      "date": "2026-07-20"
+    },
+    {
+      "id": 4,
+      "src": "https://res.cloudinary.com/dlqxpz9pu/image/upload/v1778333186/hannapp_vaer7g.jpg",
+      "time": "2022-01-01T12:03:00",
+      "date": "2026-07-20"
+    },
+    {
+      "id": 5,
+      "src": "https://res.cloudinary.com/dlqxpz9pu/image/upload/v1778333186/hannapp_vaer7g.jpg",
+      "time": "2022-01-01T12:03:00",
+      "date": "2026-07-21"
+    }
+  ],
+
+  "ai_response": [
+    {
+      "specimenId": "img_994",
+      "classification": "Cyanobacteria",
+      "confidenceScore": 94.2,
+      "analysis": {
+        "introduction": "The captured sample displays highly defined multicellular structures...",
+        "morphologyBullets": [
+          "Elongated, cylindrical cells forming distinct trichomes.",
+          "Visible cross-walls separating individual units."
+        ],
+        "conclusion": "Based on structural markers, this specimen matches the order Nostocales.Based on structural markers, this specimen matches the order Nostocales.Based on structural markers, this specimen matches the order Nostocales.Based on structural markers, this specimen matches the order Nostocales."
+      },
+      "images": {
+        "capturedImageId": 1,
+        "relatedImage1": "https://res.cloudinary.com/dlqxpz9pu/image/upload/v1778333199/alis_uldr1w.jpg",
+        "relatedImage2": "https://res.cloudinary.com/dlqxpz9pu/image/upload/v1778333142/Screenshot_514_stajzd.png"
+      }
+    },
+    {
+      "specimenId": "img_995",
+      "classification": "Cyanobacteria",
+      "confidenceScore": 94.2,
+      "analysis": {
+        "introduction": "The captured sample displays highly defined multicellular structures...",
+        "morphologyBullets": [
+          "Elongated, cylindrical cells forming distinct trichomes.",
+          "Visible cross-walls separating individual units."
+        ],
+        "conclusion": "Based on structural markers, this specimen matches the order Nostocales.Based on structural markers, this specimen matches the order Nostocales.Based on structural markers, this specimen matches the order Nostocales.Based on structural markers, this specimen matches the order Nostocales."
+      },
+      "images": {
+        "capturedImageId": 2,
+        "relatedImage1": "https://res.cloudinary.com/dlqxpz9pu/image/upload/v1778333199/alis_uldr1w.jpg",
+        "relatedImage2": "https://res.cloudinary.com/dlqxpz9pu/image/upload/v1778333142/Screenshot_514_stajzd.png"
+      }
+    },
+    {
+      "specimenId": "img_996",
+      "classification": "Cyanobacteria",
+      "confidenceScore": 94.2,
+      "analysis": {
+        "introduction": "The captured sample displays highly defined multicellular structures...",
+        "morphologyBullets": [
+          "Elongated, cylindrical cells forming distinct trichomes.",
+          "Visible cross-walls separating individual units."
+        ],
+        "conclusion": "Based on structural markers, this specimen matches the order Nostocales.Based on structural markers, this specimen matches the order Nostocales.Based on structural markers, this specimen matches the order Nostocales.Based on structural markers, this specimen matches the order Nostocales."
+      },
+      "images": {
+        "capturedImageId": 3,
+        "relatedImage1": "https://res.cloudinary.com/dlqxpz9pu/image/upload/v1778333199/alis_uldr1w.jpg",
+        "relatedImage2": "https://res.cloudinary.com/dlqxpz9pu/image/upload/v1778333142/Screenshot_514_stajzd.png"
+      }
+    },
+    {
+      "specimenId": "img_997",
+      "classification": "Cyanobacteria",
+      "confidenceScore": 94.2,
+      "analysis": {
+        "introduction": "The captured sample displays highly defined multicellular structures...",
+        "morphologyBullets": [
+          "Elongated, cylindrical cells forming distinct trichomes.",
+          "Visible cross-walls separating individual units."
+        ],
+        "conclusion": "Based on structural markers, this specimen matches the order Nostocales.Based on structural markers, this specimen matches the order Nostocales.Based on structural markers, this specimen matches the order Nostocales.Based on structural markers, this specimen matches the order Nostocales."
+      },
+      "images": {
+        "capturedImageId": 4,
+        "relatedImage1": "https://res.cloudinary.com/dlqxpz9pu/image/upload/v1778333199/alis_uldr1w.jpg",
+        "relatedImage2": "https://res.cloudinary.com/dlqxpz9pu/image/upload/v1778333142/Screenshot_514_stajzd.png"
+      }
+    },
+    {
+      "specimenId": "img_998",
+      "classification": "Cyanobacteria",
+      "confidenceScore": 94.2,
+      "analysis": {
+        "introduction": "The captured sample displays highly defined multicellular structures...",
+        "morphologyBullets": [
+          "Elongated, cylindrical cells forming distinct trichomes.",
+          "Visible cross-walls separating individual units."
+        ],
+        "conclusion": "Based on structural markers, this specimen matches the order Nostocales.Based on structural markers, this specimen matches the order Nostocales.Based on structural markers, this specimen matches the order Nostocales.Based on structural markers, this specimen matches the order Nostocales."
+      },
+      "images": {
+        "capturedImageId": 5,
+        "relatedImage1": "https://res.cloudinary.com/dlqxpz9pu/image/upload/v1778333199/alis_uldr1w.jpg",
+        "relatedImage2": "https://res.cloudinary.com/dlqxpz9pu/image/upload/v1778333142/Screenshot_514_stajzd.png"
+      }
+    }
+  ]
+}

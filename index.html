@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CamScope — AI Integrated Camera Microscope Organism Detection</title>
+    <meta
+      name="description"
+      content="AI Integrated Camera Microscope for organism detection"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/theme.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <section class="hero-section" id="hero" aria-labelledby="hero-h1">
+      <div class="hero-accent-line" aria-hidden="true"></div>
+      <div class="sphere-glow" aria-hidden="true"></div>
+
+      <div class="hero-inner">
+        <div class="hero-left">
+          <h1 class="hero-title animate-fade-in-up" id="hero-h1">
+            Cam<span class="muted-italic">Scope</span>
+          </h1>
+
+          <p class="hero-lede animate-fade-in-up d1">
+            An AI-powered microscope that identifies cells, tissues, and
+            organisms.
+          </p>
+
+          <div class="flex gap-3 flex-nowrap mb-10 animate-fade-in-up d2">
+            <a
+              href="#signup"
+              class="btn-primary whitespace-nowrap"
+              id="cta-start"
+            >
+              Get Started <span class="arr" aria-hidden="true">&#8594;</span>
+            </a>
+            <a
+              href="#features"
+              class="btn-outline whitespace-nowrap"
+              id="cta-features"
+            >
+              See features
+            </a>
+          </div>
+
+          <div
+            class="checks animate-fade-in-up d3"
+            role="list"
+            aria-label="Key features"
+          >
+            <div class="chk" role="listitem">
+              <span class="chk-icon" aria-hidden="true">&#10003;</span> 80% AI
+              accuracy
+            </div>
+            <div class="chk" role="listitem">
+              <span class="chk-icon" aria-hidden="true">&#10003;</span> Free to
+              use
+            </div>
+            <div class="chk" role="listitem">
+              <span class="chk-icon" aria-hidden="true">&#10003;</span> Installs
+              as a PWA&thinsp;&mdash;&thinsp;no app store
+            </div>
+          </div>
+        </div>
+
+        <div class="sphere-wrap animate-fade-in d2" aria-hidden="true">
+          <canvas id="sphere-canvas"></canvas>
+        </div>
+      </div>
+
+      <!-- ── MODAL ── -->
+      <div
+        id="code-modal"
+        class="fixed inset-0 z-[100] flex items-center justify-center hidden"
+      >
+        <div
+          class="absolute inset-0 bg-black/0 backdrop-blur-none transition-all duration-300"
+          id="modal-backdrop"
+        ></div>
+
+        <div
+          class="relative w-full max-w-sm p-6 mx-4 rounded-xl border border-white/10 bg-[#101010]/95 shadow-2xl transform scale-95 opacity-0 transition-all duration-300"
+          id="modal-content"
+        >
+          <h2 class="text-xl font-semibold text-white mb-1 font-serif">
+            Enter Access Code
+          </h2>
+          <p class="text-sm text-gray-400 mb-6">What is your code?</p>
+
+          <input
+            type="password"
+            id="code-input"
+            class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-2.5 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#c9a14b]/50 focus:border-[#c9a14b] transition-all mb-3"
+            placeholder="Enter 5-digit code..."
+          />
+          <p id="code-error" class="text-red-400 text-sm hidden">
+            Room not found or misspelled
+          </p>
+
+          <div class="flex justify-end gap-3 mt-8">
+            <button
+              id="modal-close"
+              class="px-4 py-2 text-sm font-medium text-gray-300 hover:text-white transition-colors"
+            >
+              Cancel
+            </button>
+            <button
+              id="modal-confirm"
+              class="px-5 py-2 text-sm font-semibold bg-white text-black rounded-lg hover:bg-gray-200 transition-colors"
+            >
+              Confirm
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/sphere-creation.js"></script>
+    <script src="js/modal.js"></script>
+  </body>
+</html>
